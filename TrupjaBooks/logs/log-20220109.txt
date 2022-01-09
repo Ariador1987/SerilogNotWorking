@@ -1,0 +1,325 @@
+2022-01-09 10:40:15.534 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-01-09 10:40:15.599 +01:00 [INF] Hosting environment: Development
+2022-01-09 10:40:15.601 +01:00 [INF] Content root path: C:\Users\BOKI\source\repos\TrupjaBooks\TrupjaBooks\
+2022-01-09 10:40:30.134 +01:00 [ERR] System.Exception: Logtest
+   at TrupjaBooks.Controllers.PublishersController.GetPublisherById(Int32 id) in C:\Users\BOKI\source\repos\TrupjaBooks\TrupjaBooks\Controllers\PublishersController.cs:line 62 fatal exception occurded
+2022-01-09 10:40:35.117 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Logtest
+   at TrupjaBooks.Controllers.PublishersController.GetPublisherById(Int32 id) in C:\Users\BOKI\source\repos\TrupjaBooks\TrupjaBooks\Controllers\PublishersController.cs:line 62
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-01-09 10:53:29.253 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-01-09 10:53:29.298 +01:00 [INF] Hosting environment: Development
+2022-01-09 10:53:29.300 +01:00 [INF] Content root path: C:\Users\BOKI\source\repos\TrupjaBooks\TrupjaBooks\
+2022-01-09 10:53:39.097 +01:00 [INF] Attempt started
+2022-01-09 10:53:39.169 +01:00 [ERR] System.Exception: This is our LOG Test
+   at TrupjaBooks.Controllers.PublishersController.GetPublisherById(Int32 id) in C:\Users\BOKI\source\repos\TrupjaBooks\TrupjaBooks\Controllers\PublishersController.cs:line 63 fatal exception occurded
+2022-01-09 10:53:44.581 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: This is our LOG Test
+   at TrupjaBooks.Controllers.PublishersController.GetPublisherById(Int32 id) in C:\Users\BOKI\source\repos\TrupjaBooks\TrupjaBooks\Controllers\PublishersController.cs:line 63
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-01-09 11:20:20.007 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-01-09 11:20:20.046 +01:00 [INF] Hosting environment: Development
+2022-01-09 11:20:20.048 +01:00 [INF] Content root path: C:\Users\BOKI\source\repos\TrupjaBooks\TrupjaBooks\
+2022-01-09 11:20:42.976 +01:00 [INF] Attempt started
+2022-01-09 11:20:43.047 +01:00 [ERR] System.Exception: This is our LOG Test
+   at TrupjaBooks.Controllers.PublishersController.GetPublisherById(Int32 id) in C:\Users\BOKI\source\repos\TrupjaBooks\TrupjaBooks\Controllers\PublishersController.cs:line 63 fatal exception occurded
+2022-01-09 11:20:47.583 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: This is our LOG Test
+   at TrupjaBooks.Controllers.PublishersController.GetPublisherById(Int32 id) in C:\Users\BOKI\source\repos\TrupjaBooks\TrupjaBooks\Controllers\PublishersController.cs:line 63
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-01-09 11:22:01.228 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-01-09 11:22:01.274 +01:00 [INF] Hosting environment: Development
+2022-01-09 11:22:01.280 +01:00 [INF] Content root path: C:\Users\BOKI\source\repos\TrupjaBooks\TrupjaBooks\
+2022-01-09 11:22:13.577 +01:00 [INF] Attempt started
+2022-01-09 11:22:13.652 +01:00 [ERR] System.Exception: This is our LOG Test
+   at TrupjaBooks.Controllers.PublishersController.GetPublisherById(Int32 id) in C:\Users\BOKI\source\repos\TrupjaBooks\TrupjaBooks\Controllers\PublishersController.cs:line 63 fatal exception occurded
+2022-01-09 11:22:17.631 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: This is our LOG Test
+   at TrupjaBooks.Controllers.PublishersController.GetPublisherById(Int32 id) in C:\Users\BOKI\source\repos\TrupjaBooks\TrupjaBooks\Controllers\PublishersController.cs:line 63
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-01-09 11:25:57.951 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-01-09 11:25:58.004 +01:00 [INF] Hosting environment: Development
+2022-01-09 11:25:58.011 +01:00 [INF] Content root path: C:\Users\BOKI\source\repos\TrupjaBooks\TrupjaBooks\
+2022-01-09 11:26:37.452 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-01-09 11:26:37.499 +01:00 [INF] Hosting environment: Development
+2022-01-09 11:26:37.502 +01:00 [INF] Content root path: C:\Users\BOKI\source\repos\TrupjaBooks\TrupjaBooks\
+2022-01-09 11:26:55.394 +01:00 [INF] Attempt started
+2022-01-09 11:26:55.459 +01:00 [ERR] System.Exception: This is our LOG Test
+   at TrupjaBooks.Controllers.PublishersController.GetPublisherById(Int32 id) in C:\Users\BOKI\source\repos\TrupjaBooks\TrupjaBooks\Controllers\PublishersController.cs:line 63 fatal exception occurded
+2022-01-09 11:26:58.371 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: This is our LOG Test
+   at TrupjaBooks.Controllers.PublishersController.GetPublisherById(Int32 id) in C:\Users\BOKI\source\repos\TrupjaBooks\TrupjaBooks\Controllers\PublishersController.cs:line 63
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-01-09 11:28:58.625 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-01-09 11:28:58.668 +01:00 [INF] Hosting environment: Development
+2022-01-09 11:28:58.674 +01:00 [INF] Content root path: C:\Users\BOKI\source\repos\TrupjaBooks\TrupjaBooks\
+2022-01-09 11:29:05.415 +01:00 [INF] Attempt started
+2022-01-09 11:29:05.495 +01:00 [ERR] System.Exception: This is our LOG Test
+   at TrupjaBooks.Controllers.PublishersController.GetPublisherById(Int32 id) in C:\Users\BOKI\source\repos\TrupjaBooks\TrupjaBooks\Controllers\PublishersController.cs:line 63 fatal exception occurded
+2022-01-09 11:29:08.538 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: This is our LOG Test
+   at TrupjaBooks.Controllers.PublishersController.GetPublisherById(Int32 id) in C:\Users\BOKI\source\repos\TrupjaBooks\TrupjaBooks\Controllers\PublishersController.cs:line 63
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-01-09 11:32:52.459 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-01-09 11:32:52.523 +01:00 [INF] Hosting environment: Development
+2022-01-09 11:32:52.529 +01:00 [INF] Content root path: C:\Users\BOKI\source\repos\TrupjaBooks\TrupjaBooks\
+2022-01-09 11:33:16.877 +01:00 [INF] Attempt started
+2022-01-09 11:33:16.974 +01:00 [ERR] System.Exception: This is our LOG Test
+   at TrupjaBooks.Controllers.PublishersController.GetPublisherById(Int32 id) in C:\Users\BOKI\source\repos\TrupjaBooks\TrupjaBooks\Controllers\PublishersController.cs:line 63 fatal exception occurded
+2022-01-09 11:33:20.170 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: This is our LOG Test
+   at TrupjaBooks.Controllers.PublishersController.GetPublisherById(Int32 id) in C:\Users\BOKI\source\repos\TrupjaBooks\TrupjaBooks\Controllers\PublishersController.cs:line 63
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-01-09 11:37:22.666 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-01-09 11:37:22.714 +01:00 [INF] Hosting environment: Development
+2022-01-09 11:37:22.721 +01:00 [INF] Content root path: C:\Users\BOKI\source\repos\TrupjaBooks\TrupjaBooks\
+2022-01-09 11:37:33.781 +01:00 [INF] Attempt started
+2022-01-09 11:37:33.842 +01:00 [ERR] System.Exception: This is our LOG Test
+   at TrupjaBooks.Controllers.PublishersController.GetPublisherById(Int32 id) in C:\Users\BOKI\source\repos\TrupjaBooks\TrupjaBooks\Controllers\PublishersController.cs:line 63 fatal exception occurded
+2022-01-09 11:37:40.332 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: This is our LOG Test
+   at TrupjaBooks.Controllers.PublishersController.GetPublisherById(Int32 id) in C:\Users\BOKI\source\repos\TrupjaBooks\TrupjaBooks\Controllers\PublishersController.cs:line 63
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-01-09 11:42:55.333 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-01-09 11:42:55.398 +01:00 [INF] Hosting environment: Development
+2022-01-09 11:42:55.399 +01:00 [INF] Content root path: C:\Users\BOKI\source\repos\TrupjaBooks\TrupjaBooks\
+2022-01-09 11:43:05.523 +01:00 [INF] Attempt started
+2022-01-09 11:43:05.594 +01:00 [ERR] System.Exception: This is our LOG Test
+   at TrupjaBooks.Controllers.PublishersController.GetPublisherById(Int32 id) in C:\Users\BOKI\source\repos\TrupjaBooks\TrupjaBooks\Controllers\PublishersController.cs:line 63 fatal exception occurded
+2022-01-09 11:43:08.721 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: This is our LOG Test
+   at TrupjaBooks.Controllers.PublishersController.GetPublisherById(Int32 id) in C:\Users\BOKI\source\repos\TrupjaBooks\TrupjaBooks\Controllers\PublishersController.cs:line 63
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-01-09 11:47:15.125 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-01-09 11:47:15.182 +01:00 [INF] Hosting environment: Development
+2022-01-09 11:47:15.183 +01:00 [INF] Content root path: C:\Users\BOKI\source\repos\TrupjaBooks\TrupjaBooks\
+2022-01-09 11:47:23.550 +01:00 [INF] Attempt started
+2022-01-09 11:47:23.616 +01:00 [ERR] System.Exception: This is our LOG Test
+   at TrupjaBooks.Controllers.PublishersController.GetPublisherById(Int32 id) in C:\Users\BOKI\source\repos\TrupjaBooks\TrupjaBooks\Controllers\PublishersController.cs:line 63 fatal exception occurded
+2022-01-09 11:47:26.795 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: This is our LOG Test
+   at TrupjaBooks.Controllers.PublishersController.GetPublisherById(Int32 id) in C:\Users\BOKI\source\repos\TrupjaBooks\TrupjaBooks\Controllers\PublishersController.cs:line 63
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-01-09 11:49:41.694 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-01-09 11:49:41.750 +01:00 [INF] Hosting environment: Development
+2022-01-09 11:49:41.758 +01:00 [INF] Content root path: C:\Users\BOKI\source\repos\TrupjaBooks\TrupjaBooks\
+2022-01-09 11:49:50.933 +01:00 [INF] Attempt started
+2022-01-09 11:49:50.999 +01:00 [ERR] System.Exception: This is our NEWEST LOG Test
+   at TrupjaBooks.Controllers.PublishersController.GetPublisherById(Int32 id) in C:\Users\BOKI\source\repos\TrupjaBooks\TrupjaBooks\Controllers\PublishersController.cs:line 63 fatal exception occurded
+2022-01-09 11:49:58.199 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: This is our NEWEST LOG Test
+   at TrupjaBooks.Controllers.PublishersController.GetPublisherById(Int32 id) in C:\Users\BOKI\source\repos\TrupjaBooks\TrupjaBooks\Controllers\PublishersController.cs:line 63
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-01-09 11:55:31.128 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-01-09 11:55:31.171 +01:00 [INF] Hosting environment: Development
+2022-01-09 11:55:31.172 +01:00 [INF] Content root path: C:\Users\BOKI\source\repos\TrupjaBooks\TrupjaBooks\
+2022-01-09 11:55:46.015 +01:00 [ERR] Does This write to DB??
+2022-01-09 11:55:46.017 +01:00 [INF] Attempt started
+2022-01-09 11:55:46.087 +01:00 [ERR] System.Exception: This is our NEWEST LOG Test
+   at TrupjaBooks.Controllers.PublishersController.GetPublisherById(Int32 id) in C:\Users\BOKI\source\repos\TrupjaBooks\TrupjaBooks\Controllers\PublishersController.cs:line 65 fatal exception occurded
+2022-01-09 11:55:48.545 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: This is our NEWEST LOG Test
+   at TrupjaBooks.Controllers.PublishersController.GetPublisherById(Int32 id) in C:\Users\BOKI\source\repos\TrupjaBooks\TrupjaBooks\Controllers\PublishersController.cs:line 65
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-01-09 13:01:56.690 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-01-09 13:01:56.747 +01:00 [INF] Hosting environment: Development
+2022-01-09 13:01:56.748 +01:00 [INF] Content root path: C:\Users\BOKI\source\repos\TrupjaBooks\TrupjaBooks\
+2022-01-09 13:02:04.952 +01:00 [ERR] CHANGED startup setting
+2022-01-09 13:02:04.953 +01:00 [INF] Attempt started
+2022-01-09 13:02:05.023 +01:00 [ERR] System.Exception: This is our ENEW NEW  LOG Test
+   at TrupjaBooks.Controllers.PublishersController.GetPublisherById(Int32 id) in C:\Users\BOKI\source\repos\TrupjaBooks\TrupjaBooks\Controllers\PublishersController.cs:line 65 fatal exception occurded
+2022-01-09 13:02:07.051 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: This is our ENEW NEW  LOG Test
+   at TrupjaBooks.Controllers.PublishersController.GetPublisherById(Int32 id) in C:\Users\BOKI\source\repos\TrupjaBooks\TrupjaBooks\Controllers\PublishersController.cs:line 65
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
